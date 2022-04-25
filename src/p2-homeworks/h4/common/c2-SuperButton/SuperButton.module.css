@@ -1,7 +1,7 @@
 .default {
     width: 125px;
     margin:10px;
-    font-family: "Oswald",Sans-serif;
+    font-family: "Oswald", Sans-serif, serif;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;

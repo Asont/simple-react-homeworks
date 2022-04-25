@@ -1,7 +1,16 @@
-.checkbox {
+.checkBoxBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.checkbox {
+    display: inline;
+   width:15px;
+    height: 15px;
+    accent-color:#ff9c95 ;
 }
 
 .spanClassName {
-
+    font-family: "Oswald", Sans-serif, serif;
 }
