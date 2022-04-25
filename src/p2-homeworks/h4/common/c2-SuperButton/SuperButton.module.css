@@ -1,0 +1,49 @@
+.default {
+    width: 125px;
+    margin:10px;
+    font-family: "Oswald",Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    fill: #000;
+    color: #000;
+    background-color: #00000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 0;
+    padding: 9px 18px;
+}
+.default:hover {
+   background-color: black;
+    color: #fcfcfc;
+}
+.red {
+    width: 125px;
+    margin:10px;
+    font-family: "Oswald",Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    fill: #000;
+    color: #ff9c95;
+    background-color: #00000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff9c95;
+    border-radius: 0;
+    padding: 9px 18px;
+}
+.red:hover {
+    background-color: #ff9c95;
+    color:#fff;
+}
+
+.default:disabled {
+    color: #b2b2b2;
+    border-color: #b2b2b2;
+}
+.default:disabled:hover {
+    background-color: #fcfcfc;
+    color:#b2b2b2;
+}

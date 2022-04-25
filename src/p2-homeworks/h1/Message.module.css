@@ -1,0 +1,45 @@
+
+.grid {
+    display: grid;
+    /*grid-template-rows: 100px 300px;*/
+    grid-template-columns:   100px 250px;
+
+}
+
+.grid > div {
+    font-size: 5vw;
+    padding: 4%;
+    text-align: center;
+}
+
+.grid .tr {
+    background: yellow;
+    border-radius: 30px;
+}
+
+.im {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top:32%;
+    left:5%;
+    border-radius: 30px;
+}
+
+.time {
+
+    text-align: right;
+    /*margin:5% 0 5% 0;*/
+    font-size: 14pt;
+
+}
+
+.name {
+    font-size: 14pt;
+    position: static;
+}
+
+.text {
+    font-size: 12pt;
+    position: static;
+}
