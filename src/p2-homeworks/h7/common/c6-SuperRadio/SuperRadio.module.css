@@ -1,0 +1,16 @@
+.radio{
+    appearance: none;
+    background: #b2b2b2;
+    height: 12px;
+    width: 13px;
+    outline: none;
+    color: #ff9c95;
+    border-radius: 7px;
+}
+.radio:focus{
+    background-color:#ff9c95;
+}
+
+.radio:checked{
+    background-color: #464a48;
+}

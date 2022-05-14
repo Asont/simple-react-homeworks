@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+
+}
+
+.editStyle {
+    width: 250px;
+    height: 24px;
+}
+
+.image{
+    width: 46px;
+    height: 24px;
+}

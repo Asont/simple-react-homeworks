@@ -10,7 +10,7 @@ function Header() {
             <SuperButton>Menu</SuperButton>
             <div className={style.dropdownContent}>
             <NavLink to={"/pre-junior"}>PreJunior</NavLink>
-            <NavLink to={"/junior"}>Junior+</NavLink>
+            <NavLink to={"/junior"}>Junior</NavLink>
             <NavLink to={"/junior-plus"}>Junior+</NavLink>
         </div>
         </div>
