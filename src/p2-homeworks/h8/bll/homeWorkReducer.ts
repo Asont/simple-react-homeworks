@@ -1,13 +1,40 @@
-export const homeWorkReducer = (state: any, action: any): any => { // need to fix any
+export type PeopleType = {
+    _id: number
+    name: string
+    age: number
+}
+
+type ActionType = ActionTypeSort | ActionTypeCheck
+
+type ActionTypeSort = {
+    type: 'sort',
+    payload: string
+}
+type ActionTypeCheck = {
+    type: 'check',
+    payload: string
+}
+
+export const homeWorkReducer = (state: PeopleType[], action: ActionType): PeopleType[] => {
     switch (action.type) {
         case 'sort': {
-            // need to fix
-            return state
+            debugger
+                let compareIncrease = (a:PeopleType,b:PeopleType)=> {
+                    if(action.payload==="up"){
+                        return a.age - b.age
+                    } else {
+                        return b.age - a.age
+                    }
+                }
+                const newState = [...state]
+            debugger
+                return newState.sort(compareIncrease)
+
         }
         case 'check': {
-            // need to fix
-            return state
+            return state.filter((item)=>item.age>18)
         }
-        default: return state
+        default:
+            return state
     }
 }
