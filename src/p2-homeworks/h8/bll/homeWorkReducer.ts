@@ -12,7 +12,7 @@ type ActionTypeSort = {
 }
 type ActionTypeCheck = {
     type: 'check',
-    payload: string
+    payload: number
 }
 
 export const homeWorkReducer = (state: PeopleType[], action: ActionType): PeopleType[] => {
