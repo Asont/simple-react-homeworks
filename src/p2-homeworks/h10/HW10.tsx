@@ -17,7 +17,6 @@ function HW10() {
         console.log('loading...')
         dispatch(loadingAC(loading=false))
     };
-
     return (
         <div>
             <hr/>
